@@ -1,0 +1,12 @@
+body {
+    font-family: 'Bebas Neue', cursive;
+    background-color: #A8CFDD;
+    margin: 0;
+    padding: 0;
+  }
+
+.pinkbox {
+    background-color: #FACBCC;
+    width: 35vw;
+    height: 100vh;
+}  
