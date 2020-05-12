@@ -8,17 +8,27 @@ body {
 .pinkbox {
     background-color: #FACBCC;
     width: 40vw;
-    height: 100vh;
+    height: 120vh;
 }  
 
 .menu {
   font-family: 'Electrolize', sans-serif;
-  font-size: small;
-  line-height: 12px;
+  font-size: normal;
+  line-height: 25px;
   color: white;
-  position: absolute;
-  top: 160px;
+  position: fixed;
+  top: 165px;
   left: 450px;
+}
+
+a,a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #A8CFDD;
+  text-decoration: none;
 }
 
 h1 {
@@ -32,7 +42,7 @@ h1 {
 .img_grainnintendo {
   width: 1300px;
   padding: 0;
-  position: absolute;
+  position: fixed;
   top: -150px;
   right: 100px;
 }
