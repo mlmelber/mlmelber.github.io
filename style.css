@@ -10,3 +10,27 @@ body {
     width: 35vw;
     height: 100vh;
 }  
+
+.menu {
+  font-family: 'Electrolize', sans-serif;
+}
+
+.name {
+
+}
+
+.photoheading {
+  display: none;
+}
+
+.designheading {
+  display: none;
+}
+
+.illustrationheading{
+  display: none;
+}
+
+.aboutheading{
+  display: none;
+}
