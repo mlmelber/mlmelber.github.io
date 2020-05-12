@@ -13,6 +13,12 @@ body {
 
 .menu {
   font-family: 'Electrolize', sans-serif;
+  font-size: small;
+  line-height: 12px;
+  color: white;
+  position: absolute;
+  top: 160px;
+  left: 450px;
 }
 
 h1 {
