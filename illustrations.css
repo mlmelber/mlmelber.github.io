@@ -1,0 +1,25 @@
+body {
+    font-family: 'Bebas Neue', cursive;
+    background-color: #FACBCC;
+    margin: 0;
+    padding: 0;
+  }
+
+
+h1 {
+  font-size: 7vw;
+  position: fixed;
+  bottom: -60px;
+  left: 700px;
+  margin-top: 10px;
+}
+
+.img_bottomnintendo {
+  width: 1450px;
+  position: fixed;
+  top: -290px;
+  left: -115px;
+  transform: rotate(.3deg);
+}
+
+
