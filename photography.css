@@ -14,12 +14,76 @@ h1 {
   left: 120px;
 }
 
-.img_topnintendo {
+.topnintendo {
   width: 1250px;
   padding: 0;
   position: fixed;
   top: -150px;
   left: 265px;
+}
+
+.screenbox {
+  width: 480px;
+  height: 350px;
+  background-color: black;
+  position: fixed;
+  left: 675px;
+  top: 160px;
+}
+
+.my-slider {
+  width: 530px;
+  position: fixed;
+  left: 200px;
+  top: 155px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.tns-outer{
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.tns-controls{
+  position: absolute;
+  top:50%;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  outline:none;
+}
+
+.tns-controls button:nth-last-of-type(1){
+  position: absolute;
+  right: 0;
+}
+
+button{
+  padding: 5px 10px;
+  font-size: 1.5rem;
+  background-color: white;
+  border: 5px solid black;
+}
+
+.tns-nav-active{
+  background-color: white;
+}
+button:hover {
+  background-color: white;
+}
+
+.tns-nav{
+  position: absolute;
+  bottom: -25px;
+  z-index: 50;
+  left: 50%;
+  width: auto;
+  transform: translateX(-50%);
 }
 
 
