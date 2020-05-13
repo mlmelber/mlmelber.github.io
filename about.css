@@ -11,15 +11,16 @@ h1 {
   position: fixed;
   top: 90px;
   right: 400px;
+  font-weight: 100;
 }
 
 .bio {
   font-family: 'Electrolize', sans-serif;
-  font-size: 1.6vw;
+  font-size: 1.5vw;
   width: 235px;
   position: fixed;
   top: 230px;
-  left: 665px;
+  left: 675px;
 }
 
 .img_profilepicpolaroid {
