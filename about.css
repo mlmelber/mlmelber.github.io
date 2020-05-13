@@ -15,8 +15,8 @@ h1 {
 
 .bio {
   font-family: 'Electrolize', sans-serif;
-  font-size: larger;
-  width: 220px;
+  font-size: 1.6vw;
+  width: 235px;
   position: fixed;
   top: 230px;
   left: 665px;
