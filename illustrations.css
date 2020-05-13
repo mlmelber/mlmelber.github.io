@@ -12,6 +12,7 @@ h1 {
   bottom: -60px;
   left: 700px;
   margin-top: 10px;
+  font-weight: 100;
 }
 
 .img_bottomnintendo {
@@ -20,6 +21,14 @@ h1 {
   top: -290px;
   left: -115px;
   transform: rotate(.3deg);
+}
+
+.stylus {
+  width: 400px;
+  transform: rotate(-30deg);
+  position: fixed;
+  top: 0px;
+  left: 30px;
 }
 
 
