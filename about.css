@@ -9,16 +9,25 @@ body {
 h1 {
   font-size: 7vw;
   position: fixed;
-  top: 210px;
-  right: 90px;
+  top: 90px;
+  right: 400px;
 }
 
-.img_profilepicwpolaroid {
+.bio {
+  font-family: 'Electrolize', sans-serif;
+  font-size: larger;
+  width: 220px;
+  position: fixed;
+  top: 230px;
+  left: 665px;
+}
+
+.img_profilepicpolaroid {
   width: 1070px;
   padding: 0;
   position: fixed;
   top: -550px;
-  left: -240px;
+  left: -230px;
 }
 
 
