@@ -1,18 +1,16 @@
 body {
-    font-family: 'Bebas Neue', cursive;
-    background-color: #A8CFDD;
-    margin: 0;
-    padding: 0;
-  }
-
+  font-family: 'Bebas Neue', cursive;
+  background-color: #A8CFDD;
+  margin: 0;
+  padding: 0;
+}
 
 h1 {
   font-size: 68pt;
   font-weight: 100;
-  transform: rotate(90deg);
-  position: absolute;
-  top: 290px;
-  right: -180px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .menu_hidden .menu {
@@ -21,7 +19,7 @@ h1 {
 
 .menu {
   max-height:100vh;
-  background-color: #FACBCC;
+  background-color: #A8CFDD;
   overflow: hidden;
   z-index: 100;
   position: relative;
@@ -41,7 +39,7 @@ h1 {
 }
 
 .menu a:hover {
-  color: #A8CFDD;
+  color: #FACBCC;
 }
 
 .menu_close {
@@ -81,7 +79,6 @@ h1 {
   width: 40px;
   height: 35px;
   z-index: 100;
-  position: relative;
 }
 .hamburger .line {
   width: 40px;
@@ -96,7 +93,7 @@ h1 {
 }
 
 .hamburger:hover .line {
-  background-color: #FACBCC;
+  background-color: #A8CFDD;
 }
 
 .nintendo {
@@ -104,23 +101,24 @@ h1 {
   width:1000px;
   margin: 0 auto;
 }
-.topnintendo {
-  width: 1250px;
-  padding: 0;
-  position: fixed;
-  top: -150px;
-  right: 325px;
+
+.ds {
+  position: relative;
 }
 
+.topnintendo {
+  margin-left: 20vw;
+  width: 90vw;
+}
 .screenbox {
-  width: 480px;
-  height: 370px;
-  background-color: black;
-  position: fixed;
-  left: 55px;
-  top: 95px;
+  width: 42vw;
+  height: 31vw;
+  top: 8vw;
+  left: 44vw;
   border-radius: 8px;
   overflow: hidden;
+  background-color: black;
+  position: absolute;
 }
 
 img {
@@ -165,10 +163,77 @@ button:hover {
 .tns-nav{
 
   display: none;
-  
+
+}
+
+@media screen and (min-width: 1025px) {
+  h1 {
+    font-size: 7vw;
+    transform: rotate(-90deg);
+    position: fixed;
+    text-align: left;
+    top: 20vw;
+    left: 1vh;
+    z-index: 100;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    transform: rotate(-90deg);
+  }
+}
+
+/* Tablet Styles */
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .ds {
+    overflow: hidden;
+    width: 100vw;
   }
 
+  .nintendo {
+    width: 100%;
+  }
+
+  h1 {
+    width: 100%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  .topnintendo {
+    margin-left: -10vw;
+    width: 140vw;
+  }
+  .screenbox {
+    width: 64vw;
+    height: 48vw;
+    top: 32vw;
+    left: 28vw;
+  }
+
+}
 
 
+@media screen and (max-width: 767px) {
+  .ds {
+    overflow: hidden;
+    width: 100vw;
+  }
 
+  .nintendo {
+    width: 100%;
+  }
 
+  h1 {
+    width: 100%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  .topnintendo {
+    margin-left: -10vw;
+    width: 140vw;
+  }
+  .screenbox {
+    width: 64vw;
+    height: 48vw;
+    top: 43vw;
+    left: 28vw;
+  }
+}
