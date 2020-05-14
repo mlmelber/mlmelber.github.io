@@ -19,7 +19,7 @@ h1 {
 
 .menu {
   max-height:100vh;
-  background-color: #A8CFDD;
+  background-color: #FACBCC;
   overflow: hidden;
   z-index: 100;
   position: relative;
@@ -39,7 +39,7 @@ h1 {
 }
 
 .menu a:hover {
-  color: #FACBCC;
+  color: black;
 }
 
 .menu_close {
