@@ -8,6 +8,7 @@ body {
 
 h1 {
   font-size: 68pt;
+  font-weight: 100;
   transform: rotate(90deg);
   position: absolute;
   top: 290px;
@@ -102,7 +103,7 @@ h1 {
   width:1000px;
   margin: 0 auto;
 }
-.img_topnintendo {
+.topnintendo {
   width: 1250px;
   padding: 0;
   position: fixed;
@@ -111,12 +112,12 @@ h1 {
 }
 
 .screenbox {
-  width: 420px;
-  height: 285px;
+  width: 480px;
+  height: 370px;
   background-color: black;
-  position: absolute;
-  left: 335px;
-  top: 243px;
+  position: fixed;
+  left: 55px;
+  top: 95px;
   border-radius: 8px;
   overflow: hidden;
 }
