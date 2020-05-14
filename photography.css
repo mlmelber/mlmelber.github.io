@@ -108,18 +108,18 @@ h1 {
   width: 1250px;
   padding: 0;
   position: fixed;
-  top: -150px;
+  top: -110px;
   left: 265px;
 }
 
 
 .screenbox {
-  width: 480px;
-  height: 350px;
+  width: 485px;
+  height: 365px;
   background-color: black;
   position: fixed;
   left: 675px;
-  top: 160px;
+  top: 190px;
   border-radius: 8px;
   overflow: hidden;
 }
