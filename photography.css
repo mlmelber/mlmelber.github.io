@@ -9,10 +9,13 @@ body {
 h1 {
   font-size: 68pt;
   font-weight: 100;
-  transform: rotate(-90deg);
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  /* transform: rotate(-90deg);
   position: fixed;
   top: 210px;
-  left: 120px;
+  left: 120px; */
 }
 
 .menu_hidden .menu {
@@ -104,22 +107,28 @@ h1 {
   margin: 0 auto;
 }
 
+.ds {
+  position: relative;
+}
+
 .topnintendo {
-  width: 1250px;
+  /* width: 1250px;
   padding: 0;
   position: fixed;
   top: -160px;
-  left: 265px;
+  left: 265px; */
+  width: 65vw;
+  margin-left: 30vw;
 }
 
 
 .screenbox {
-  width: 480px;
-  height: 350px;
+  width: 29vw;
+  height: 22vw;
   background-color: black;
-  position: fixed;
-  left: 675px;
-  top: 160px;
+  position: absolute;
+  left: 48vw;
+  top: 6vw;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -169,4 +178,35 @@ button:hover {
   
   }
 
+   /* Tablet Styles */
+  @media screen and (max-width: 1024px) and (min-width: 768px) {
+    
+  }
 
+
+  @media screen and (max-width: 767px) {
+    .ds {
+      overflow: hidden;
+      width: 100vw;
+    }
+
+    .nintendo {
+      width: 100%;
+    }
+
+    h1 {
+      width: 100%;
+      margin-top: 5vh;
+      margin-bottom: 5vh;
+    }
+    .topnintendo {
+      margin-left: -10vw;
+      width: 140vw;
+    }
+    .screenbox {
+      width: 64vw;
+      height: 48vw;
+      top: 13vw;
+      left: 28vw;
+    }
+  }
