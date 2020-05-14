@@ -8,6 +8,7 @@ body {
 
 h1 {
   font-size: 68pt;
+  font-weight: 100;
   transform: rotate(-90deg);
   position: fixed;
   top: 210px;
@@ -119,6 +120,8 @@ h1 {
   position: fixed;
   left: 675px;
   top: 160px;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 img {
