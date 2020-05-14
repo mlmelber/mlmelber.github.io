@@ -115,13 +115,6 @@ h1 {
   top: 160px;
 }
 
-.my-slider {
-  width: 480px;
-  position: fixed;
-  left: 675px;
-  top: 155px;
-}
-
 img {
   max-width: 100%;
   height: auto;
@@ -162,12 +155,9 @@ button:hover {
 }
 
 .tns-nav{
-  position: absolute;
-  bottom: -25px;
-  z-index: 50;
-  left: 50%;
-  width: auto;
-  transform: translateX(-50%);
-}
+
+  display: none;
+  
+  }
 
 
