@@ -109,9 +109,9 @@ h1 {
   width: 480px;
   height: 355px;
   background-color: black;
-  position: fixed;
+  position: absolute;
   left: 412px;
-  top: 60px;
+  top: 300px;
 }
 
 img {
