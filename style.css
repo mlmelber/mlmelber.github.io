@@ -17,7 +17,7 @@ body {
 }
 
 .ds {
-  position: relative;
+  position: absolute;
 }
 
 .menu {
@@ -26,8 +26,8 @@ body {
   line-height: 25px;
   color: white;
   position: fixed;
-  top: 165px;
-  left: 450px;
+  top: 15vw;
+  left: 33vw;
 }
 
 a,a:visited {
@@ -44,7 +44,7 @@ h1 {
   font-size: 7vw;
   font-weight: 100;
   transform: rotate(-90deg);
-  position: fixed;
+  position: absolute;
   top: 150px;
   right: -150px;
 }
@@ -60,7 +60,26 @@ h1 {
    /* Tablet Styles */
    @media screen and (max-width: 1024px) and (min-width: 768px) {
     .menu {
-      position:
+      position: fixed;
+      font-size: small;
+      line-height: 20px;
+      top: 23vw;
+      left: 47vw;
+    }
+
+    .img_grainnintendo {
+      width: 1000px;
+      top: -50px;
+      right: -100px;
+    }
+
+    h1 {
+      font-size: 7vw;
+      font-weight: 100;
+      transform: rotate(-90deg);
+      position: absolute;
+      top: 150px;
+      right: -90px;
     }
 
 
@@ -80,6 +99,15 @@ h1 {
         width: 1000px;
         top: -50px;
         right: -220px;
+      }
+
+      h1 {
+        font-size: 9vw;
+        font-weight: 100;
+        position: absolute;
+        top: 5vw;
+        left: 30vw;
+        transform: rotate(0deg);
       }
     }
 
