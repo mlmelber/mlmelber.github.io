@@ -9,11 +9,36 @@
 
 
         <link rel="stylesheet" href="/illustrations.css">
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css"
+      />
+            <!--[if (lt IE 9)
+        ]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.helper.ie8.js"></script
+      ><![endif]-->
 
     </head>
-    <body>
+    <body class="menu_hidden">
+      <div class="hamburger menu_toggle">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+  
+      <div class="menu">
+        <div class="menu_close menu_toggle">
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+        <a href="index.html">home</a>
+        <a href="photography.html">photography</a>
+        <a href="graphicdesign.html">graphic design</a>
+        <a href="illustrations.html">illustrations</a>
+        <a href="about.html">about</a>
+      </div>
 
       <div class="contentbox">
+        <script src="src/index.js" defer></script>
             <div class="nintendo">
               <h1>ILLUSTRATIONS</h1>
               <img class="bottomnintendo" src="/img/bottomnintendo.png" alt="nintendo"/>
@@ -50,6 +75,10 @@
                 </div>
                 <script src="script.js"></script>
               </div>
+            </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+            <script src="index.js"></script>
+      </div>
         </div>
 
     </body>
