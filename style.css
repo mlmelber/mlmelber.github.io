@@ -10,6 +10,15 @@ body {
     width: 40vw;
     height: 120vh;
 }  
+.nintendo {
+  position:absolute;
+  width:1000px;
+  margin: 0 auto;
+}
+
+.ds {
+  position: relative;
+}
 
 .menu {
   font-family: 'Electrolize', sans-serif;
@@ -33,6 +42,7 @@ a:hover {
 
 h1 {
   font-size: 7vw;
+  font-weight: 100;
   transform: rotate(-90deg);
   position: fixed;
   top: 150px;
@@ -46,5 +56,17 @@ h1 {
   top: -150px;
   right: 100px;
 }
+
+   /* Tablet Styles */
+   @media screen and (max-width: 1024px) and (min-width: 768px) {
+     
+   }
+
+    @media screen and (max-width: 767px) {
+
+    }
+
+
+
 
 
