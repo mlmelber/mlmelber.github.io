@@ -4,25 +4,64 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
         <title>GRAPHIC DESIGN</title>
 
 
         <link rel="stylesheet" href="/graphicdesign.css">
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css"
+      />
+      <!--[if (lt IE 9)
+        ]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.helper.ie8.js"></script
+      ><![endif]-->
 
     </head>
-    <body>
-        <div class="contentbox">
-            <div class="heading">
-                <h1>GRAPHIC DESIGN</h1>
+    <body class="menu_hidden">
+        <h1>GRAPHIC DESIGN</h1>
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+          </div>
+      
+          <div class="menu">
+            <div class="menu_close menu_toggle">
+              <span class="line"></span>
+              <span class="line"></span>
             </div>
-            <div class="nintendo">
-                <img class="img_topnintendo" src="/img/topnintendo.png" alt="nintendo"/>
-                <div class="screenbox"></div>
+            <a href="index.html">home</a>
+            <a href="photography.html">photography</a>
+            <a href="graphicdesign.html">graphic design</a>
+            <a href="illustrations.html">illustrations</a>
+            <a href="about.html">about</a>
+          </div>
+      
+          <script src="src/index.js" defer></script>
+        <div class="nintendo">
+            <img class="topnintendo" src="/img/topnintendo.png" alt="nintendo"/>
+            <div class="screenbox">
+                <div class="my-slider">
+                    <div>
+                      <img src="/img/13.jpg" alt="" />
+                    </div>
+                    <div>
+                      <img src="/img/14.jpeg" alt="" />
+                    </div>
+                    <div>
+                      <img src="/img/15.jpg" alt="" />
+                    </div>
+                    <div>
+                      <img src="/img/16.jpeg" alt="" />
+                    </div>
+                    <div>
+                        <img src="/img/17.jpeg" alt="" />
+                      </div>
+                  </div>
             </div>
-            <div class="menu"></div>
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+              <script src="index.js"></script>
         </div>
-
-    </body>
+     </body>
 
 </html>
