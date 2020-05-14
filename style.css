@@ -59,11 +59,28 @@ h1 {
 
    /* Tablet Styles */
    @media screen and (max-width: 1024px) and (min-width: 768px) {
-     
+    .menu {
+      position:
+    }
+
+
    }
 
     @media screen and (max-width: 767px) {
+      .menu {
+        color: white;
+        position: fixed;
+        font-size: small;
+        line-height: 20px;
+        left: 180px;
+        top: 200px;
+      }
 
+      .img_grainnintendo {
+        width: 1000px;
+        top: -50px;
+        right: -220px;
+      }
     }
 
 
