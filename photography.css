@@ -173,17 +173,29 @@ button:hover {
 
    /* Tablet Styles */
   @media screen and (max-width: 1024px) and (min-width: 768px) {
-    h1 {
-      font-size: 68pt;
-      font-weight: 100;
-      text-align: center;
-      margin-top: 0px;
-      margin-bottom: 0px;
+    .ds {
+      overflow: hidden;
+      width: 100vw;
     }
 
+    .nintendo {
+      width: 100%;
+    }
+
+    h1 {
+      width: 100%;
+      margin-top: 5vh;
+      margin-bottom: 5vh;
+    }
     .topnintendo {
-      width: 65vw;
-      margin-left: 30vw;
+      margin-left: -10vw;
+      width: 140vw;
+    }
+    .screenbox {
+      width: 64vw;
+      height: 48vw;
+      top: 13vw;
+      left: 28vw;
     }
 
   }
@@ -197,6 +209,7 @@ button:hover {
 
     .nintendo {
       width: 100%;
+      margin-top: 100px;
     }
 
     h1 {
