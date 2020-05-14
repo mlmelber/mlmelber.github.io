@@ -7,11 +7,6 @@ body {
 
 
 h1 {
-  font-size: 68pt;
-  font-weight: 100;
-  text-align: center;
-  margin-top: 0px;
-  margin-bottom: 0px;
   /* transform: rotate(-90deg);
   position: fixed;
   top: 210px;
@@ -117,8 +112,6 @@ h1 {
   position: fixed;
   top: -160px;
   left: 265px; */
-  width: 65vw;
-  margin-left: 30vw;
 }
 
 
@@ -180,7 +173,19 @@ button:hover {
 
    /* Tablet Styles */
   @media screen and (max-width: 1024px) and (min-width: 768px) {
-    
+    h1 {
+      font-size: 68pt;
+      font-weight: 100;
+      text-align: center;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+
+    .topnintendo {
+      width: 65vw;
+      margin-left: 30vw;
+    }
+
   }
 
 
