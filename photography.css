@@ -15,19 +15,15 @@ h1 {
 }
 
 .menu_hidden .menu {
-  width: 60vw;
-  height: 100vh;
-  background-color: gray;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 20;
+  max-height: 0;
 }
 
 .menu {
   max-height:100vh;
   background-color: gray;
   overflow: hidden;
+  z-index: 100;
+  position: relative;
 
   -webkit-transition: all 0.9s ease-in-out;
   -o-transition: all 0.9s ease-in-out;
@@ -77,6 +73,28 @@ h1 {
 
 .menu_close:hover .line {
   background-color: red;
+}
+
+.hamburger {
+  margin: 10px;
+  width: 40px;
+  height: 35px;
+  z-index: 10;
+}
+.hamburger .line {
+  width: 40px;
+  height: 5px;
+  background-color: black;
+  display: block;
+  margin: 4px auto;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburger:hover .line {
+  background-color: yellow;
 }
 
 .topnintendo {
