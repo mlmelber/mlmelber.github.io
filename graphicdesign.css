@@ -107,11 +107,11 @@ h1 {
 
 .screenbox {
   width: 480px;
-  height: 370px;
+  height: 355px;
   background-color: black;
   position: fixed;
-  left: 85px;
-  top: 150px;
+  left: 412px;
+  top: 60px;
 }
 
 img {
