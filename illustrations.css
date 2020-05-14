@@ -21,7 +21,7 @@ h1 {
 
 .menu {
   max-height:100vh;
-  background-color: gray;
+  background-color: #A8CFDD;
   overflow: hidden;
   z-index: 100;
   position: relative;
@@ -41,7 +41,7 @@ h1 {
 }
 
 .menu a:hover {
-  color: blue;
+  color: black;
 }
 
 .menu_close {
@@ -100,23 +100,26 @@ h1 {
 }
 
 .nintendo {
-  
+  position: 'relative';
+}
+
+.ds {
+  position: relative;
 }
 
 .bottomnintendo {
-  width: 1450px;
   position: absolute;
-  top: -210px;
-  left: -35px;
+  width: 120vw;
+  top: -23vw;
   transform: rotate(.3deg);
 }
 
 .stylus {
-  width: 400px;
-  transform: rotate(-30deg);
   position: fixed;
-  top: 0px;
-  left: 30px;
+  width: 25vw;
+  top: 0;
+  left: 5vw;
+  transform: rotate(-30deg);
 }
 
 img{
@@ -125,11 +128,11 @@ img{
 }
 
 .parent{
-  position:absolute;
-  left: 385px;
-  top: 50px;
-  width:335px;
-  height: 240px;
+  position: absolute;
+  width: 27.5vw;
+  height: 20vw;
+  left: 35vw;
+  top: -2vw;
   border-radius: 8px;
   display: grid;
   grid-template-columns: 1fr 1fr;
