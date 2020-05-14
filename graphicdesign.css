@@ -22,4 +22,13 @@ h1 {
   right: 325px;
 }
 
+.screenbox {
+  width: 480px;
+  height: 370px;
+  background-color: black;
+  position: fixed;
+  left: 85px;
+  top: 150px;
+}
+
 
